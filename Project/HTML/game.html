@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic tac Toe</title>
+    <link rel="stylesheet" href="/CSS/game.css">
+</head>
+<body>
+    <header class="container">
+        <span class="logo">Tic tac toe</span>
+        <nav>
+            <ul>
+                <li><a href="index.html#History of this game">Історія гри</a></li>
+                <li><a href="index.html#Rules">Правила Гри</a></li>
+                <li><a href="index.html#About presenter">О людині яка зробила</a></li>
+                <li><a href="/HTML/index.html">Перейти на основну сторінку</a></li>
+            </ul>
+        </nav>
+    </header>
+<div class="main">
+    <div class="content">
+
+        <div class="currentPlayer">
+            <span>Зараз ходить: <span id="curPlyr">X</span></span>
+        </div>
+
+        <div id="area"></div>
+
+        <div class="stat">
+            <table>
+                <th colspan="2">Статистика</th>
+                <tr>
+                    <td>X</td>
+                    <td><span id="sX">0</span></td>
+                </tr>
+                <tr>
+                    <td>O</td>
+                    <td><span id="sO">0</span></td>
+                </tr>
+                <tr>
+                    <td>Нічия</td>
+                    <td><span id="sD">0</span></td>
+                </tr>
+            </table>
+        </div>
+
+        <script src="/JS/main.js"></script>
+    </div>
+</div>
+    <footer class="container">
+
+    </footer>
+</body>
+</html>
